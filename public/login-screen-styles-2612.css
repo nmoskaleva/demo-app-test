@@ -1,32 +1,24 @@
 body {
   background-color: #edeefb;
-  background-image: url('./hero.png');
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* Desktop headline */
 #headline#headline {
   display: block !important;
+  background-position: center left;
   background-image: url('./cool-delivery-logo.png');
   background-repeat: no-repeat;
-  min-width: 200px;
-  height: 40px;
   background-size: 220px 40px;
-  background-position: center left;
-  /* margin: 12px 0 2px 16px; */
   margin: 0;
   margin-left: 16px;
-  margin-top: 12px;
-  margin-bottom: 2px;
+  margin-bottom: 16px;
+  padding-top: 12px;
+  padding-bottom: 8px;
 }
 
 @media screen and (min-width: 768px) {
   #headline#headline {
-    margin-left: 40px;
-    margin-top: 20px;
+    margin-left: 30px;
     margin-bottom: 20px;
   }
 }
